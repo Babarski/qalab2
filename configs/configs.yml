@@ -1,0 +1,9 @@
+mongodb_dev:
+  host: mongodb://localhost:27017/
+  database: database
+  table: phones
+
+mongodb_test:
+  host: mongodb://localhost:27017/
+  database: test_database
+  table: test_phones
