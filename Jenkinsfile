@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh 'pip3 install --upgrade pip setuptools'
                 sh 'apk add --update alpine-sdk make gcc && rm -rf /var/cache/apk/*'
-                sh 'pip install -r config/requirements.txt'
+                sh 'pip install -r configs/requirements.txt'
             }
         }
         stage('Test') {
